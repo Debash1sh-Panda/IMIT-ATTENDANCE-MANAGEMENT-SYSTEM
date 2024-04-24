@@ -115,7 +115,6 @@ public class McaDashboard extends JFrame implements ActionListener, MouseListene
         add(choicename1);
 
         choice1 = new Choice();
-        choice1.add("");
         choice1.add("First");
         choice1.add("Second");
         choice1.add("Third");
@@ -160,7 +159,6 @@ public class McaDashboard extends JFrame implements ActionListener, MouseListene
         add(choicename3);
 
         choice2 = new Choice();
-        choice2.add("");
         choice2.add("JAVA");
         choice2.add("ADA");
         choice2.add("OOAD");
@@ -180,7 +178,6 @@ public class McaDashboard extends JFrame implements ActionListener, MouseListene
         add(choicename4);
 
         choice3 = new Choice();
-        choice3.add("");
         choice3.add("A");
         choice3.add("B");
         choice3.setBounds(830, 323, 150, 40);
@@ -547,7 +544,7 @@ public class McaDashboard extends JFrame implements ActionListener, MouseListene
             view.setForeground(new Color(255, 255, 255));
         }
         if (e.getSource() == logout) {
-            logout.setBackground(new Color(140, 41, 34)); // Restore original background color on exit
+            logout.setBackground(new Color(41, 187, 167)); // Restore original background color on exit
             logout.setForeground(new Color(255, 255, 255));
         }
     }

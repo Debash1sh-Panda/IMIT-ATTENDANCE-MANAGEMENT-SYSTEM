@@ -104,7 +104,7 @@ public class SelectBranch extends JFrame implements ActionListener, MouseListene
     @Override
     public void mouseEntered(MouseEvent e) {
         if (e.getSource() == back) {
-            back.setBackground(new Color(140, 41, 34)); // Restore original background color on exit
+            back.setBackground(new Color(41, 187, 167)); // Restore original background color on exit
             back.setForeground(new Color(255, 255, 255));
         }
     }

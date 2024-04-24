@@ -184,7 +184,7 @@ class McaMailVerification extends JFrame implements ActionListener, MouseListene
             back.setForeground(new Color(255, 255, 255));
         }
         if (e.getSource() == get) {
-            get.setBackground(new Color(169, 150, 52)); // Restore original background color on exit
+            get.setBackground(new Color(41, 187, 167)); // Restore original background color on exit
             get.setForeground(new Color(255, 255, 255));
         }
     }

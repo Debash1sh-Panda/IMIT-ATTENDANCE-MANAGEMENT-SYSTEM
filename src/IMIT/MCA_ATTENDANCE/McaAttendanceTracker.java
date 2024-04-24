@@ -81,7 +81,6 @@ public class McaAttendanceTracker extends JFrame implements ActionListener, Mous
         add(choicename1);
 
         choice1 = new Choice();
-        choice1.add("");
         choice1.add("First");
         choice1.add("Second");
         choice1.add("Third");
@@ -101,7 +100,6 @@ public class McaAttendanceTracker extends JFrame implements ActionListener, Mous
         add(choicename3);
 
         choice2 = new Choice();
-        choice2.add("");
         choice2.add("JAVA");
         choice2.add("ADA");
         choice2.add("OOAD");
@@ -121,7 +119,6 @@ public class McaAttendanceTracker extends JFrame implements ActionListener, Mous
         add(choicename4);
 
         choice3 = new Choice();
-        choice3.add("");
         choice3.add("A");
         choice3.add("B");
         choice3.setBounds(470, 273, 150, 40);
