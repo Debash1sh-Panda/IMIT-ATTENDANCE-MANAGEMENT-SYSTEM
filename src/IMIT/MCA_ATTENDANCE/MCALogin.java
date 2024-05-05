@@ -188,7 +188,7 @@ public class MCALogin extends JFrame implements ActionListener, MouseListener, K
     @Override
     public void mouseEntered(MouseEvent e) {
         if (e.getSource() == back) {
-            back.setBackground(new Color(140, 41, 34)); // Restore original background color on exit
+            back.setBackground(new Color(41, 187, 167)); // Restore original background color on exit
             back.setForeground(new Color(255, 255, 255));
         }
         if (e.getSource() == login) {
@@ -196,8 +196,8 @@ public class MCALogin extends JFrame implements ActionListener, MouseListener, K
             login.setForeground(new Color(255, 255, 255));
         }
         if (e.getSource() == forgot) {
-            forgot.setBackground(new Color(140, 41, 34)); // Restore original background color on exit
-            forgot.setForeground(new Color(255, 255, 255));
+            forgot.setBackground(new Color(41, 187, 167)); // Restore original background color on exit
+            forgot.setForeground(new Color(0, 0, 0));
             forgot.setBorder(new LineBorder(new Color(255, 255, 255)));
             forgot.setBorder(BorderFactory.createEmptyBorder());
         }
